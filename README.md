@@ -79,4 +79,15 @@ Creo que lo más conveniente es que cada quien aporte **esta semana entrante** i
 
 * **Datos faltantes:** Ingreso promedio de los hogares en México; se podría investigar en la Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) de 2016 u otros. Ver: https://www.inegi.org.mx/programas/enigh/nc/2016/
 
+### 5. Disponibilida de horarios para reunión de Kick-Off (18-22 Nov)
+
+| Nombre | Disponibilidad (18 - 22 Nov)                 | Notas |
+|--------|----------------------------------------------|-------|
+| Laura  | Mi: > 17:30<br>Ju: 08:00 - 15:00             |       |
+| Ely    | ?                                            |       |
+| Miguel | ?                                            |       |
+| César  | Mi: > 17:30, Ju: 08:00 - 15:00, Vi: > 10:00  |       |
+
+
+
 César
