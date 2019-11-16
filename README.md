@@ -26,6 +26,7 @@ Este documento pretende ser un bosquejo de los temas que se deben cubrir con mot
 
 i. **Introducción:** descripción del problema, contexto y objetivos a resolver
 ii. **Descripción de la información:** en términos de cada una de sus variables, escalas de medición. Debe incluir un análisis exploratorio de datos.
+
 iii. **Modelado e implementación:** describir con detalle el modelo, con todas sus especificaciones, que usarán para resolver sus objetivos. 
 
 **Nota:** Corre modelo en *R-OpenBugs-JAGS* y dar detalles de sus cadenas, convergencia, etc.
