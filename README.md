@@ -88,6 +88,11 @@ Creo que lo más conveniente es que cada quien aporte **esta semana entrante** i
 | Miguel | ?                                            |       |
 | César  | Mi: > 17:30, Ju: 08:00 - 15:00, Vi: > 10:00  |       |
 
+### 6. Acuerdos tras reunión de local-off
 
-
+* **Sábado 23** en la mañana Laura envías base limpia
+* **Sábado 23** después de medio día Cesar envía el shiny arreglado para el eda
+* **Miércoles 28 en la noche** Ely y Miguel envían su avance de lo más relevante del Eda
+* **Miércoles 28** Laura y César envían avance del Modelo en Jags (aqui voy a requerir ayuda de Laura)
+* **Jueves 29** a medio día reunión de avances.
 César
