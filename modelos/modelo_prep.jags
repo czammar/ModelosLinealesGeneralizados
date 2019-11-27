@@ -1,0 +1,32 @@
+
+model{
+# Verosimilitud
+  for(i in 1:N){
+    y[i] ~ dnorm(mu[i],tau)
+    eta[i]<- beta0+beta1[Genero[i]]+beta2[Edad[i]]+beta3[Estacion[i]]+beta4[Dia[i]]+beta5[Hora[i]]
+    mu[i] <- eta[i] #exp(eta[i])/(1+exp(eta[i]))
+  }
+#Priors
+  beta0 ~ dnorm(0,0.001) # Intercepto
+  for (i in 1:2) {beta1[i] ~ dnorm(0,0.01)} # Genero del usuario
+  #beta2 ~ dnorm(0,100) # Edad del usuario
+  for (i in 1:78) {beta2[i] ~ dnorm(0,0.01)} # Edad
+  for (i in 1:318) {beta3[i] ~ dnorm(0,0.01)} # Estacion de arribo
+  for (i in 1:7) {beta4[i] ~ dnorm(0,0.01)} # Dia de la semana en que ocurrio el viaje
+  for (i in 1:24) {beta5[i] ~ dnorm(0,0.01)} # Hora en que la bicicleta fue tomada
+  tau ~ dbeta(1,1) # Precision de la distribucion normal
+
+# Condiciones de estimabilidad
+  beta0.est <- beta0+mean(beta1[])+mean(beta2[])+mean(beta3[])+mean(beta4[])+mean(beta5[])
+  for (i in 1:2) {beta1.est[i] <- beta1[i]-mean(beta1[])} # Genero del usuario
+  #beta2.est <- beta2                                # Edad del usuario
+  for (i in 1:78) {beta2.est[i] <- beta2[i]-mean(beta2[])} # Genero del usuario
+  for (i in 1:318) {beta3.est[i] <- beta3[i]-mean(beta3[])} # Estacion de arribo
+  for (i in 1:7) {beta4.est[i] <- beta4[i]-mean(beta4[])} # Dia de la semana en que ocurrio el viaje
+  for (i in 1:24) {beta5.est[i] <- beta5[i]-mean(beta5[])} # Estado civil
+
+#Predictive
+for (i in 1:N) {
+    yf[i] ~ dnorm(mu[i],tau)
+    }
+}
