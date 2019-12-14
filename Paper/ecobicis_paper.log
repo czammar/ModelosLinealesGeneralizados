@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.29)  14 DEC 2019 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.29)  14 DEC 2019 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1713,9 +1713,9 @@ Overfull \hbox (8.17719pt too wide) in paragraph at lines 102--110
 
 (./ecobicis_paper.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 13.
+(Font)              scaled to size 6.64998pt on input line 8.
  [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -1751,11 +1751,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
 Here is how much of TeX's memory you used:
  35866 strings out of 494457
  655827 string characters out of 6173956
- 753321 words of memory out of 5000000
+ 752322 words of memory out of 5000000
  38833 multiletter control sequences out of 15000+600000
  645733 words of font info for 146 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 62i,11n,67p,1327b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,67p,1432b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1779,7 +1779,7 @@ lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uh
 vb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.p
 fb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on ecobicis_paper.pdf (2 pages, 343591 bytes).
+Output written on ecobicis_paper.pdf (2 pages, 343702 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
